@@ -1,11 +1,11 @@
-class Video {
-    constructor(id, title, description, likes = 0, comments, sharelink) {
+export class Video {
+    constructor(id, title, description) {
         this.id = id
         this.title = title
         this.description = description
-        this.likes = likes
-        this.comments = comments
-        this.sharelink = sharelink
+        this.likes
+        this.comments
+        this.sharelink
     }
     addLike() {
         this.likes += 1
@@ -14,9 +14,3 @@ class Video {
         this.likes -= 1
     }
 }
-
-const video = new Video(
-    0,
-    'Learning OOP with JavaScript',
-    "In this video I'll OOP using JavaScript language."
-)
