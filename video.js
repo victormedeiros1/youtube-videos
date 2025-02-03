@@ -3,9 +3,9 @@ export class Video {
         this.id = id
         this.title = title
         this.description = description
-        this.likes
-        this.comments
-        this.sharelink
+        this.likes = 0
+        this.comments = []
+        this.sharelink = ''
     }
     addLike() {
         this.likes += 1

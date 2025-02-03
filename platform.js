@@ -2,9 +2,9 @@ export class Platform {
     constructor(id, name) {
         this.id = id
         this.name = name
-        this.videos
+        this.videos = []
     }
     uploadVideo(video) {
-        this.videos = video
+        this.videos.push(video)
     }
 }
